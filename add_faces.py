@@ -75,7 +75,7 @@ def update_files(name, faces_data):
     save_data('faces_data.pkl', faces)
 
 # Execução principal
-name = input("Digite seu nome: ")
+name = input("Digite o nome: ")
 faces_data, num_photos_taken = capture_faces(name)
 if faces_data is not None:
     update_files(name, faces_data)
